@@ -3,33 +3,188 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>i9Solos - Apps</title>
+    <title>i9Solos - Aplicativos</title>
+
     <style>
-        body { font-family: sans-serif; margin: 0; display: flex; flex-direction: column; min-height: 100vh; text-align: center; }
-        header { background: #333; color: white; padding: 40px 20px; font-size: 2em; font-weight: bold; }
-        main { flex: 1; display: flex; align-items: center; justify-content: center; font-size: 1.5em; color: #555; }
-        footer { background: #f4f4f4; padding: 20px; font-size: 0.9em; color: #777; border-top: 1px solid #ddd; }
-        a { color: #333; text-decoration: none; font-weight: bold; }
-        a:hover { text-decoration: underline; }
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: #2c3e50;
+            color: #fff;
+            padding: 40px 20px;
+            text-align: center;
+        }
+
+        header h1 {
+            margin: 0;
+            font-size: 2.4em;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1em;
+            opacity: 0.9;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .apps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(260px, 1fr));
+            gap: 25px;
+        }
+
+        .app-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            padding: 25px;
+            text-align: center;
+            transition: transform 0.2s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            margin-bottom: 15px;
+        }
+
+        .app-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+        }
+
+        .app-desc {
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 15px;
+        }
+
+        .app-links a {
+            display: block;
+            margin: 6px 0;
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+        }
+
+        .app-links a:hover {
+            text-decoration: underline;
+        }
+
+        footer {
+            background: #ecf0f1;
+            text-align: center;
+            padding: 20px;
+            font-size: 0.9em;
+            color: #777;
+            border-top: 1px solid #ddd;
+        }
     </style>
 </head>
 <body>
 
-    <header>i9Solos</header>
+<header>
+    <h1>i9Solos</h1>
+    <p>Aplicativos educacionais e técnicos para solos, fertilidade e agricultura</p>
+</header>
 
-    <main>
-        <div>
-            <p>Bem-Vindo!</p>
-            <p><a href="fertysolos/privacy.html">FertySolos - Política de Privacidade</a></p>
-            <p><a href="calculadoranpk/privacy.html">Calculadora NPK - Política de Privacidade</a></p>
-            <p><a href="morfologiadesolos/privacy.html">Morfologia de Solos - Política de Privacidade</a></p>
-            <p><a href="soloquis/privacy.html">SoloQuiz - Política de Privacidade</a></p>
+<main>
+    <div class="apps">
+
+        <!-- SoloQuiz -->
+        <div class="app-card">
+            <img src="icons/soloquiz.png" alt="SoloQuiz" class="app-icon">
+            <div class="app-title">SoloQuiz</div>
+            <div class="app-desc">
+                Aplicativo educacional com quizzes interativos sobre solos, fertilidade e manejo agrícola.
+            </div>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.campos.solosquiz&hl=pt_BR" target="_blank">
+                    📱 Ver na Play Store
+                </a>
+                <a href="soloquiz/privacy.html">
+                    🔒 Política de Privacidade
+                </a>
+            </div>
         </div>
-    </main>
 
-    <footer>
-        &copy; 2024 i9Solos. Todos os direitos reservados.
-    </footer>
+        <!-- Morfologia de Solos -->
+        <div class="app-card">
+            <img src="icons/morfosolos.png" alt="Morfologia de Solos" class="app-icon">
+            <div class="app-title">Morfologia de Solos</div>
+            <div class="app-desc">
+                Guia prático para identificação, descrição e estudo da morfologia dos solos.
+            </div>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.campos.morfosolos&hl=pt_BR" target="_blank">
+                    📱 Ver na Play Store
+                </a>
+                <a href="morfologiadesolos/privacy.html">
+                    🔒 Política de Privacidade
+                </a>
+            </div>
+        </div>
+
+        <!-- Calculadora NPK -->
+        <div class="app-card">
+            <img src="icons/calcnpk.png" alt="Calculadora NPK" class="app-icon">
+            <div class="app-title">Calculadora NPK</div>
+            <div class="app-desc">
+                Ferramenta para cálculo de adubação NPK com base em necessidades nutricionais.
+            </div>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.campos.calcnpk&hl=pt_BR" target="_blank">
+                    📱 Ver na Play Store
+                </a>
+                <a href="calculadoranpk/privacy.html">
+                    🔒 Política de Privacidade
+                </a>
+            </div>
+        </div>
+
+        <!-- Solos Férteis -->
+        <div class="app-card">
+            <img src="icons/solosferteis.png" alt="Solos Férteis" class="app-icon">
+            <div class="app-title">Solos Férteis</div>
+            <div class="app-desc">
+                Aplicativo técnico para planejamento, manejo e interpretação da fertilidade do solo.
+            </div>
+            <div class="app-links">
+                <a href="https://play.google.com/store/apps/details?id=com.campos.solosferteis&hl=pt_BR" target="_blank">
+                    📱 Ver na Play Store
+                </a>
+                <a href="fertysolos/privacy.html">
+                    🔒 Política de Privacidade
+                </a>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    &copy; 2024 i9Solos. Todos os direitos reservados.
+</footer>
 
 </body>
 </html>
+
