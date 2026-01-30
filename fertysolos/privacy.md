@@ -2,7 +2,7 @@
     <!-- Português -->
     <h2>Política de Privacidade</h2>
     <p align="justify">
-        O aplicativo <strong>SolloFertil</strong> é desenvolvido e disponibilizado na sua versão atual por <strong>camposar</strong>. O app está disponível em versão gratuita com anúncios e versão paga com recursos extras e sem anúncios. Este SERVIÇO é fornecido pela camposar e destina-se ao uso "como está".
+        O aplicativo <strong>FertySolos</strong> é desenvolvido e disponibilizado na sua versão atual por <strong>camposar</strong>. O app está disponível em versão gratuita com anúncios e versão paga com recursos extras e sem anúncios. Este SERVIÇO é fornecido pela camposar e destina-se ao uso "como está".
     </p>
     <p align="justify">
         Esta página é usada para informar os visitantes sobre nossas políticas de coleta, uso e divulgação de informações pessoais, caso alguém decida usar nosso serviço.
@@ -60,7 +60,7 @@
     <!-- English -->
     <h2>Privacy Policy</h2>
     <p align="justify">
-        The <strong>SolloFertil</strong> app is developed and provided in its current version by <strong>camposar</strong>. The app is available in a free version with ads and a paid version with additional features and no ads. This SERVICE is provided by camposar "as is".
+        The <strong>FerySolos</strong> app is developed and provided in its current version by <strong>camposar</strong>. The app is available in a free version with ads and a paid version with additional features and no ads. This SERVICE is provided by camposar "as is".
     </p>
     <p align="justify">
         This page is used to inform visitors about our policies regarding the collection, use, and disclosure of personal information if anyone decides to use our Service.
