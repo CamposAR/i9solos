@@ -1,0 +1,348 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>i9Solos - Aplicativos</title>
+
+    <style>
+        body {
+            font-family: Arial, Helvetica, sans-serif;
+            margin: 0;
+            background: #f5f7fa;
+            color: #333;
+            display: flex;
+            flex-direction: column;
+            min-height: 100vh;
+        }
+
+        header {
+            background: rgb(255, 255, 255);
+            color: #000000;
+            padding: 20px 10px;
+            text-align: center;
+            border-bottom: 1px solid #e1e8ed;
+        }
+
+        header h1 {
+            margin: 5px 0 0 0;
+            font-size: 2.4em;
+            color: #1b5e20;
+        }
+
+        header p {
+            margin-top: 10px;
+            font-size: 1.1em;
+            color: #555;
+            max-width: 600px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .profile-links {
+            margin-top: 15px;
+        }
+
+        .profile-links a {
+            display: inline-block;
+            margin: 0 10px;
+            color: #fff;
+            background: #2e7d32;
+            padding: 6px 14px;
+            border-radius: 20px;
+            text-decoration: none;
+            font-size: 0.9em;
+            font-weight: bold;
+            transition: background 0.2s;
+        }
+
+        .profile-links a:hover {
+            background: #1b5e20;
+        }
+
+        main {
+            flex: 1;
+            padding: 40px 20px;
+            max-width: 1100px;
+            margin: auto;
+        }
+
+        .header-logo {
+            width: 90px;
+            height: auto;
+        }
+
+        .apps {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 25px;
+        }
+
+        .app-card {
+            background: #fff;
+            border-radius: 10px;
+            box-shadow: 0 4px 10px rgba(0,0,0,0.08);
+            padding: 25px;
+            text-align: center;
+            display: flex;
+            flex-direction: column;
+            justify-content: space-between;
+            transition: transform 0.2s ease;
+        }
+
+        .app-card:hover {
+            transform: translateY(-5px);
+        }
+
+        .app-icon {
+            width: 80px;
+            height: 80px;
+            margin: 0 auto 15px auto;
+        }
+
+        .app-title {
+            font-size: 1.3em;
+            font-weight: bold;
+            margin-bottom: 10px;
+            color: #2c3e50;
+        }
+
+        .app-desc {
+            font-size: 0.95em;
+            color: #666;
+            margin-bottom: 15px;
+            line-height: 1.4;
+        }
+
+        /* Container de Tags Técnicas */
+        .tech-tags {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+            gap: 6px;
+            margin-bottom: 20px;
+        }
+
+        .tag {
+            font-size: 0.75em;
+            font-weight: bold;
+            padding: 4px 8px;
+            border-radius: 4px;
+            text-transform: uppercase;
+        }
+
+        .tag-lang { background: #e3f2fd; color: #0d47a1; }
+        .tag-tech { background: #e8f5e9; color: #1b5e20; }
+        .tag-db { background: #fff3e0; color: #e65100; }
+        .tag-exclusive { background: #fce4ec; color: #c62828; }
+
+        .app-links a {
+            display: block;
+            margin: 6px 0;
+            color: #2c3e50;
+            font-weight: bold;
+            text-decoration: none;
+            font-size: 0.95em;
+        }
+
+        .app-links a:hover {
+            text-decoration: underline;
+        }
+
+        .exclusive-badge {
+            display: inline-block;
+            background: #c62828;
+            color: #fff;
+            font-size: 0.7em;
+            font-weight: bold;
+            padding: 3px 12px;
+            border-radius: 12px;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+            margin-top: 5px;
+        }
+
+        footer {
+            background: #ecf0f1;
+            text-align: center;
+            padding: 25px;
+            font-size: 0.9em;
+            color: #555;
+            border-top: 1px solid #ddd;
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <img src="icons/logo_principal.png" alt="Logo i9Solos" class="header-logo">
+    <h1>i9Solos</h1>
+    <p>Aplicativos educacionais e técnicos para ciência do solo e agricultura</p>
+    
+    <!-- Seção de Contato e Código Principal pedida na análise anterior -->
+    <div class="profile-links">
+        <a href="https://github.com/camposar" target="_blank">💻 GitHub do Desenvolvedor</a>
+        <a href="https://www.linkedin.com/in/alcinei-campos-6473a064" target="_blank">👔 LinkedIn</a>
+    </div>
+</header>
+
+<main>
+    <div class="apps">
+
+        <!-- FertySolos -->
+        <div class="app-card">
+            <div>
+                <img src="icons/solosferteis.png" alt="FertySolos" class="app-icon">
+                <div class="app-title">FertySolos</div>
+                <div class="app-desc">
+                    Aplicativo técnico para planejamento, manejo e interpretação da fertilidade do solo. Conta com inteligência preditiva para suporte à decisão agronômica.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Kotlin</span>
+                    <span class="tag tag-tech">LiteRT / TFLite</span>
+                    <span class="tag tag-tech">Python DNN</span>
+                    <span class="tag tag-db">Firebase</span>
+                </div>
+                <div class="app-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.campos.solosferteis&hl=pt_BR" target="_blank">
+                        📱 Ver na Play Store
+                    </a>
+                    <a href="fertysolos/privacy.html">
+                        🔒 Política de Privacidade
+                    </a>
+                </div>
+            </div>
+        </div>
+        
+        <!-- AgroLentes -->
+        <div class="app-card">
+            <div>
+                <img src="icons/agrolentes.png" alt="AgroLentes" class="app-icon">
+                <div class="app-title">AgroLentes</div>
+                <div class="app-desc">
+                    Ferramenta técnica para levantamento de dados de uso do solo e colaboração científica em campo.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Kotlin</span>
+                    <span class="tag tag-tech">Android SDK</span>
+                    <span class="tag tag-db">SQLite</span>
+                    <span class="tag tag-exclusive">Uso Exclusivo</span>
+                </div>
+                <div class="app-links">
+                    <span style="color: #999; font-size: 0.9em; display: block; margin: 6px 0;">
+                        ⚠️ Desenvolvido para instituição parceira — não disponível publicamente
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Calculadora NPK -->
+        <div class="app-card">
+            <div>
+                <img src="icons/calcnpk.png" alt="Calculadora NPK" class="app-icon">
+                <div class="app-title">Calculadora NPK</div>
+                <div class="app-desc">
+                    Ferramenta para cálculo de adubação NPK com base em necessidades nutricionais de culturas específicas.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Kotlin</span>
+                    <span class="tag tag-tech">Android Jetpack</span>
+                </div>
+                <div class="app-links">
+                    <a href="https://play.google.com/store/apps/details?id=com.campos.calcnpk&hl=pt_BR" target="_blank">
+                        📱 Ver na Play Store
+                    </a>
+                    <a href="calculadoranpk/privacy.html">
+                        🔒 Política de Privacidade
+                    </a>
+                </div>
+            </div>
+        </div>
+
+        <!-- SoloQuiz -->
+        <div class="app-card">
+            <div>
+                <img src="icons/soloquiz.png" alt="SoloQuiz" class="app-icon">
+                <div class="app-title">SoloQuiz</div>
+                <div class="app-desc">
+                    Aplicativo educacional com quizzes interativos sobre solos, fertilidade e manejo agrícola focado no aprendizado técnico.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Kotlin</span>
+                    <span class="tag tag-tech">UI Kit</span>
+                    <span class="tag tag-exclusive">Uso Exclusivo</span>
+                </div>
+                <div class="app-links">
+                    <span style="color: #999; font-size: 0.9em; display: block; margin: 6px 0;">
+                        Não disponível publicamente
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- Morfologia de Solos -->
+        <div class="app-card">
+            <div>
+                <img src="icons/morfosolos.png" alt="Morfologia de Solos" class="app-icon">
+                <div class="app-title">Morfologia de Solos</div>
+                <div class="app-desc">
+                    Guia prático para identificação, descrição e estudo da morfologia dos solos com suporte de mapas georreferenciados offline.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Java</span>
+                    <span class="tag tag-tech">OSMDroid</span>
+                    <span class="tag tag-tech">Google Maps SDK</span>
+                    <span class="tag tag-exclusive">Uso Exclusivo</span>
+                </div>
+                <div class="app-links">
+                    <span style="color: #999; font-size: 0.9em; display: block; margin: 6px 0;">
+                        Não disponível publicamente
+                    </span>
+                </div>
+            </div>
+        </div>
+
+        <!-- SYSAGROLAUDO -->
+        <div class="app-card">
+            <div>
+                <img src="icons/agrolaudo.png" alt="SYSAGROLAUDO" class="app-icon">
+                <div class="app-title">AGROLAUDO</div>
+                <div class="app-desc">
+                    Sistema integrado multiplataforma para automação laboratorial agronômica, controle de análises complexas e emissão automática de laudos de solos.
+                </div>
+            </div>
+            <div>
+                <div class="tech-tags">
+                    <span class="tag tag-lang">Flutter</span>
+                    <span class="tag tag-tech">Node.js</span>
+                    <span class="tag tag-db">PostgreSQL</span>
+                    <span class="tag tag-tech">Web & Mobile</span>
+                </div>
+                <div class="app-links">
+                    <a href="https://appagrolaudo.web.app/#/home" target="_blank">
+                        💻 Acessar Sistema Web
+                    </a>
+                </div>
+            </div>
+        </div>
+
+    </div>
+</main>
+
+<footer>
+    &copy; 2026 i9Solos. Todos os direitos reservados.<br>
+    <small>Desenvolvido com foco em Engenharia de Software aplicada à AgTech.</small>
+</footer>
+
+</body>
+</html>
