@@ -1,0 +1,13 @@
+# Scripts e arquivos do Windows / Automação
+*.bat
+*.cmd
+*.txt
+
+# Arquivos de sistema e editores
+.DS_Store
+Thumbs.db
+.vscode/
+.idea/
+
+# Logs e arquivos temporários
+*.log
