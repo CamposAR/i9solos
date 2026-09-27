@@ -40,7 +40,7 @@ This policy is effective as of 2023-12-24
 
 <p align="justify">
 If you have any questions or suggestions about my Privacy Policy, do not hesitate to contact me at
-<a href="mailto:crasolos@gmail.com">crasolos@gmail.com</a>.
+<a href="mailto:alcineicampos@gmail.com">alcineicampos@gmail.com</a>.
 </p>
 
 ---
@@ -87,5 +87,5 @@ Esta política é efetiva a partir de 24-12-2023
 
 <p align="justify">
 Se você tiver alguma dúvida ou sugestão sobre minha Política de Privacidade, não hesite em me contatar em
-<a href="mailto:crasolos@gmail.com">crasolos@gmail.com</a>.
+<a href="mailto:alcineicampos@gmail.com">alcineicampos@gmail.com</a>.
 </p>

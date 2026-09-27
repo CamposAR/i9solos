@@ -79,7 +79,7 @@
 
     <h3>Contate-nos</h3>
     <p align="justify">
-        Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite em nos contatar em <a href="mailto:crasolos@gmail.com">crasolos@gmail.com</a>.
+        Se você tiver alguma dúvida ou sugestão sobre nossa Política de Privacidade, não hesite em nos contatar em <a href="mailto:alcineicampos@gmail.com">alcineicampos@gmail.com</a>.
     </p>
 
     <hr>
@@ -164,6 +164,6 @@
 
     <h3>Contact Us</h3>
     <p align="justify">
-        If you have any questions or suggestions regarding our Privacy Policy, do not hesitate to contact us at <a href="mailto:crasolos@gmail.com">crasolos@gmail.com</a>.
+        If you have any questions or suggestions regarding our Privacy Policy, do not hesitate to contact us at <a href="mailto:alcineicampos@gmail.com">alcineicampos@gmail.com</a>.
     </p>
 </body>
